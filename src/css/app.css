@@ -1,0 +1,167 @@
+/* Your CSS goes here */
+#main {
+  text-align: center;
+  
+}
+/*#body {
+  background: #212121;
+}
+*/
+body{
+	background:url(../images/background.jpg) center center no-repeat;
+	background-size: 800px 470px;
+}
+h{
+  color : #ffffff;
+}
+
+#footert{
+	left : 0;
+	right : 0;
+	margin-left : 120px;
+	margin-right : 20 px;
+	margin-top : 50px;
+	
+}
+#close {
+  position: absolute;
+  top: 90px;
+  right: 0;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  z-index: 1000;
+}
+#close img {
+  width: 100%;
+}/*
+#averageSpeed {
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}*/
+
+@media (min-width: 801px) {
+  #close {
+    top: 104px;
+  }
+}
+#seatbelt {
+ font-size: 3em;
+ line-height: .3em;
+}
+#image_test{
+	position: absolute; 
+  left: 380px;
+  
+  bottom: 85px;
+}
+/* For 10 inch display */
+@media (min-width: 801px) {
+  #close {
+    top: 104px;
+  }
+  
+  .gauge{
+  height: 300px;
+  width: 500px;
+  
+  }
+  .enbiggen {
+    font-size: 150%;
+  }
+
+  .enbiggen img
+  {
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    margin-top:50px;
+  }
+  .checkbox {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 40px;
+
+    
+    }
+    
+}
+
+/* Only for smaller 8in screen */
+@media  (max-width: 800px) {
+#trailerLightChecker{
+  height:50%;
+  width:50%;
+  }
+
+  .gauge{
+    height: 200px;
+    width: 350px;
+	
+   }
+   
+}
+.section {
+  padding: 20px;
+  padding-left: 50px;
+}
+.section input[type="radio"]{
+  display: none;
+}
+.container {
+  margin-bottom: 10px;
+}
+.container label {
+  position: relative;
+}
+
+/* Base styles for spans */
+.container span::before,
+.container span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Radio buttons */
+.container span.radio:hover {
+  cursor: pointer;
+}
+.container span.radio::before {
+  left: -52px;
+  width: 40px;
+  height: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.container span.radio::after {
+  left: -49px;
+  width: 11px;
+  height: 11px;
+  border-radius:10px;
+  background-color: #ff1a1a;
+}
+input[type="radio"]:checked + label span.radio::after {
+  left: -27px;
+  background-color: #55ff00;
+}
+
+
+#map-canvas { height: 25% }
+
+
+
+
+
+
+
+
+
+
