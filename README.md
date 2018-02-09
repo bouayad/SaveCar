@@ -5,7 +5,7 @@ To install :
 - create a directory then copy the project there. 
 - launch cmd  then cd  directory path.
 - cxecute this command ngi serve
-- cd model directory execute this  command python NGI.py
+- cd model directory then execute this  command python NGI.py
 - send the data to the server from http://ngi-socketeer.herokuapp.com/ you can find an exmaple of data in data.txt file
 
 
