@@ -1,12 +1,13 @@
 # SaveCar
 # functionality
+'''
 - checking out if the driver has put on the seatbelt or not
 - checking out if the passengers has put on the seatbelt or not
 - checking out if the driver has override the maximum speed inside the city (60km/h)
 - checking out if the driver has override the maximum speed In the national road (100km/h)
 - checking out if the driver has override the maximum speed In the Highway(120km/h)
 - checking out if the driver door or passengers doors are open
-- predict the status of car engine   
+- predict the status of car engine   '''
 
 # how To Run : 
 - Download Next Generation Infotainment Software Development Kit you can find it here [SDK](https://developer.gm.com/ngi)
