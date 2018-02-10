@@ -20,9 +20,9 @@
 - send the data to the server from [socketeer](http://ngi-socketeer.herokuapp.com) you can find an exmaple of data in [data](data.txt)
 
 # About the project
-```
+
 - this project aim to make the driver and the passengesr save by checking out the car's doors and the seatbelts, it also predict the      status of engine car in  realtime and notify the driver to preserve the car to not breakdown, then take the current position of the car and display the nearbly repair car  places in the map
-```
+
 # Screen Shots 
 ![index](src/images/index.PNG?raw=true "Title")
 ![index](src/images/doors.PNG?raw=true "Title")
