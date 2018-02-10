@@ -1,7 +1,7 @@
 # SaveCar
 
 
-#how To Run : 
+# how To Run : 
 - Download Next Generation Infotainment Software Development Kit you can find it here [SDK](https://developer.gm.com/ngi)
 - create a directory then copy the project there. 
 - launch cmd  then cd  directory path.
