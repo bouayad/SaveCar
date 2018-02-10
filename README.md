@@ -11,14 +11,14 @@
 ```
 
 # how To Run : 
-```
+
 - Download Next Generation Infotainment Software Development Kit you can find it here [SDK](https://developer.gm.com/ngi)
 - create a directory then copy the project there. 
 - launch cmd  then cd  directory path.
 - execute this command ngi serve
 - cd model directory then execute this  command python NGI.py
 - send the data to the server from [socketeer](http://ngi-socketeer.herokuapp.com) you can find an exmaple of data in [data](data.txt)
-```
+
 # About the project
 ```
 - this project aim to make the driver and the passengesr save by checking out the car's doors and the seatbelts, it also predict the      status of engine car in  realtime and notify the driver to preserve the car to not breakdown, then take the current position of the car and display the nearbly repair car  places in the map
