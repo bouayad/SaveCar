@@ -1,7 +1,8 @@
 # SaveCar
 
-To install : 
--Next Generation Infotainment Software Development Kit you can find the documentation about this SDK in this link : https://developer.gm.com/ngi
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+#how To Run : 
+- Download Next Generation Infotainment Software Development Kit you can find it here [SDK](https://developer.gm.com/ngi)
 - create a directory then copy the project there. 
 - launch cmd  then cd  directory path.
 - execute this command ngi serve
