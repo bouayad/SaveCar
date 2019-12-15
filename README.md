@@ -1,4 +1,4 @@
-# SaveCar
+# SafeCar
 # functionality
 ```
 - checking out if the driver has put on the seatbelt or not
